@@ -1,34 +1,24 @@
-{% extends 'base.html' %}
-
-{% block content %}
-<p>{{ movies|length }} Titles</p>
-<ul class="movie-list">
-    {% for movie in movies %}
-    <li>{{ movie.title }} - {{ movie.year }}
-        <span class="float-right">
-            <a class="imdb" href="https://www.imdb.com/find?q={{ movie.title }}" target="_blank" title="Find this movie on IMDb">IMDb</a>
-            {% if current_user.is_authenticated %}
-                <a class="btn" href="{{ url_for('edit', movie_id=movie.id) }}">Edit</a>
-                <form class="inline-form" method="post" action="{{ url_for('delete', movie_id=movie.id) }}">
-                    <input class="btn" type="submit" name="delete" value="Delete" onclick="return confirm('Are you sure?')">
-                </form>
-            {% endif %}
-        </span>
-    </li>
-    {% endfor %}
-</ul>
-<!--<img alt="Walking Totoro" class="totoro" src="{{ url_for('static', filename='images/totoro.gif') }}" title="to~to~ro~">-->
-{% endblock %}
-
-
-<p>{{ movies|length }} Titles</p>
-<!-- 在模板中可以直接使用 current_user 变量 -->
-{% if current_user.is_authenticated %}
-<form method="post">
-    Name <input type="text" name="title" autocomplete="off" required>
-    Year <input type="text" name="year" autocomplete="off" required>
-    <input class="btn" type="submit" name="submit" value="Add">
-</form>
-{% endif %}
-
-
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>返校及进出校园卡</title>
+<style type="text/css">
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul {
+margin: 0;
+padding: 0;
+}
+body{
+ 	height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+img { max-width: 100%; height: 100%; width: auto; width: auto; }
+</style>
+</head>
+</body>
+<img src="wj.jpg">
+<body>
+<html>
