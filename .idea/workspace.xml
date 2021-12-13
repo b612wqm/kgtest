@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0e1307b-1cc7-4c1a-871b-68eeeab6a924" name="Default Changelist" comment="" />
+    <list default="true" id="a0e1307b-1cc7-4c1a-871b-68eeeab6a924" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/watchlist/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchlist/templates/wj.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/watchlist/static/images/wj.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +35,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../watchlist" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\gitgit\kgtest\watchlist\static\images" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.teach">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -185,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618398548269</updated>
       <workItem from="1618972246071" duration="5645000" />
-      <workItem from="1639399751451" duration="849000" />
+      <workItem from="1639399751451" duration="1272000" />
     </task>
     <servers />
   </component>
